@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shumei</title>
+    <link href="22.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript">
+        function showDiv(n,m){
+            for(var i=1;i<=4;i++)
+            {
+                var obj1=document.getElementById("div"+i);
+                obj1.style.display="none";
+            }
+
+           var obj=document.getElementById("div"+n);
+           obj.style.display="block";
+           for(var j=1;j<=4;j++)
+           {
+               var obj2=document.getElementById("li"+j);
+               obj2.style.background="white";
+           }
+          // m.style.background="lightblue";
+            var obj3=document.getElementById("li"+m);
+           obj3.style.background="lightblue";
+        }
+
+    </script>
+</head>
+<body>
+      <a href="#"><img src="banner-Home.png" id="pic1"></a>
+      <nav>
+          <ul id="ul1">
+              <li class="li1" id="li1" onmouseover="showDiv(1,1)">热门</li>
+              <li class="li1" id="li2" onmouseover="showDiv(2,2)">活动</li>
+              <li class="li1" id="li3" onmouseover="showDiv(3,3)">最新</li>
+              <li class="li1" id="li4" onmouseover="showDiv(4,4)">急速借</li>
+          </ul>
+      </nav>
+
+      <div id="div1">
+      <div class="div1">
+          <img src="1.png" class="pt1" id="pic2">
+          <ul class="pt1">
+              <li class="li2">机猫贷<span id="span1">1000-5000</span></li>
+              <li class="li2" id="pt2">芝麻分600以上超... 80937人借款 </li>
+              <li class="li2"><span class="span1">下款快</span><span class="span1">门槛低</span></li>
+          </ul>
+          <input type="button" value="去申请" class="pt1" id="input1">
+      </div>
+
+      <div class="div1">
+          <img src="2.png" class="pt1" id="pic2">
+          <ul class="pt1">
+              <li class="li2">机猫贷<span id="span1">1000-5000</span></li>
+              <li class="li2" id="pt2">芝麻分600以上超... 80937人借款 </li>
+              <li class="li2"><span class="span1">下款快</span><span class="span1">门槛低</span></li>
+          </ul>
+          <input type="button" value="去申请" class="pt1" id="input1">
+      </div>
+
+      <div class="div1">
+          <img src="3.png" class="pt1" id="pic2">
+          <ul class="pt1">
+              <li class="li2">机猫贷<span id="span1">1000-5000</span></li>
+              <li class="li2" id="pt2">芝麻分600以上超... 80937人借款 </li>
+              <li class="li2"><span class="span1">下款快</span><span class="span1">门槛低</span></li>
+          </ul>
+          <input type="button" value="去申请" class="pt1" id="input1">
+      </div>
+
+      <div class="div1">
+          <img src="4.png" class="pt1" id="pic2">
+          <ul class="pt1">
+              <li class="li2">机猫贷<span id="span1">1000-5000</span></li>
+              <li class="li2" id="pt2">芝麻分600以上超... 80937人借款 </li>
+              <li class="li2"><span class="span1">下款快</span><span class="span1">门槛低</span></li>
+          </ul>
+          <input type="button" value="去申请" class="pt1" id="input1">
+      </div>
+      </div>
+
+      <div id="div2">
+          00000
+      </div>
+
+      <div id="div3">
+          00000111111111111
+      </div>
+      <div id="div4">
+          000001111111111113222222222222222222
+      </div>
+
+</body>
+</html>
